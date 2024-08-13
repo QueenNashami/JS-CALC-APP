@@ -1,6 +1,4 @@
-/* main.css */
 
-/* Global settings */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f3f3f3;
@@ -18,7 +16,7 @@ body {
     height: 100%;
 }
 
-/* Calculator container */
+
 .calculator {
     background-color: #333;
     border-radius: 10px;
@@ -26,7 +24,7 @@ body {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Display area */
+
 .display {
     background-color: #222;
     border-radius: 10px;
@@ -54,14 +52,14 @@ body {
     font-size: 1.5em;
 }
 
-/* Keys grid */
+
 .keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
-/* Key styles */
+
 .key {
     background-color: #444;
     border: none;

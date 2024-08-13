@@ -1,4 +1,4 @@
-// main.js
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const keys = document.querySelector('.keys');
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     keys.addEventListener('click', function (event) {
         const key = event.target.closest('.key');
-        if (!key) return; // Prevent errors when clicking on non-key elements
+        if (!key) return; 
 
         const keyValue = key.getAttribute('data-key');
 
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
         currentInput = currentInput.slice(0, -1);
     }
 
-    
+   
     function calculateResult() {
         try {
             currentOutput = eval(currentInput.replace(/x/g, '*').replace(/÷/g, '/'));
